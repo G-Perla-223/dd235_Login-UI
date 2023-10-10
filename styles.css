@@ -1,0 +1,40 @@
+.child-1, .child-2, .child-3, .child-4, .child-5, .child-6{
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.parent-1{
+    display: flex;
+justify-content: center;
+}
+.parent-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-1{
+    order: 2;
+    flex-grow: 2;
+}
+.child-2{
+    order: 1;
+    flex-grow: 2;
+}
+.child-3{
+    order: 3;
+    align-items: center;
+}
+.child-4{
+    order: 6;
+}
+.child-5{
+    order: 4;
+}
+.child-6{
+    order: 5;
+}
